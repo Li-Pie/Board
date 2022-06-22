@@ -1,0 +1,8 @@
+CREATE TABLE dbo.T_Board (
+    No        INT NOT NULL IDENTITY(1,1), 
+    Subject   VARCHAR(50), 
+    Content   VARCHAR(255), 
+    SysRegDT  DATETIME, 
+ CONSTRAINT PK_T_Board 
+   PRIMARY KEY CLUSTERED (No ASC) ON [PRIMARY]
+) ON [PRIMARY]
